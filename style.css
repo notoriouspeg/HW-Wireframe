@@ -17,7 +17,7 @@
   
   header {
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #777;
     background: #ebebeb;
     width: 960px;
@@ -33,11 +33,11 @@
   }
   
   #article {
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 20px;
-    color: #777;
-    background: #ebebeb; 
-    width: 495px;
+    color: #ebebeb;
+    background: #777; 
+    width: 425px;
 }
  
   #section {
@@ -45,15 +45,19 @@
     margin-bottom: 20px;
     color: #777;
     background: #ebebeb; 
-    width: 495px;
+    width: 480px;
+    height: 300px;
+    float: left
   }
 
   #tripleh {
     padding: 20px;
     margin-bottom: 20px;
+    margin-top: 30px;
     color: #777;
     background: #ebebeb; 
-    width: 495px;
+    width: 385px;
+    font-weight: bold;
   }
   
   #p {
@@ -61,20 +65,25 @@
     margin-bottom: 20px;
     color: #777;
     background: #ebebeb; 
-    width: 495px;
+    width: 385px;
 }
 
   #aside {
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 50px;
+    margin-bottom: 50px;
     color: #777;
     background: #ebebeb;
-    width: 495px; 
+    height: 300px;
+    width: 456px; 
+    float: right;
 }
   
   footer {
     padding: 20px;
     margin-bottom: 20px;
+    margin-top: 100px;
     color: #777;
     background: #ebebeb; 
-}
+    height: 80px;
+    clear: both;
+    }
