@@ -2,6 +2,8 @@
  * {
     box-sizing: border-box;
     text-align: center;
+    /* box-align: center; */
+    /* align-content: center; */
     /* background-color: #777; */
   }
   
@@ -12,6 +14,8 @@
     background: #777;
     width: 960px;
     font-size: 18px;
+    margin-left: 150px
+    
 
   }
   
@@ -33,19 +37,21 @@
   }
   
   #article {
-    padding: 10px;
-    margin-bottom: 20px;
+    padding: 5px;
+    margin-bottom: 30px;
+    margin-top: 30px;
     color: #ebebeb;
     background: #777; 
-    width: 425px;
+    width: 450px;
+    height: 220px;
 }
  
   #section {
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #777;
     background: #ebebeb; 
-    width: 480px;
+    width: 495px;
     height: 300px;
     float: left
   }
@@ -53,19 +59,24 @@
   #tripleh {
     padding: 20px;
     margin-bottom: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
     color: #777;
     background: #ebebeb; 
     width: 385px;
     font-weight: bold;
+    height: auto;
   }
   
   #p {
     padding: 20px;
     margin-bottom: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
     color: #777;
     background: #ebebeb; 
     width: 385px;
+    height: auto;
 }
 
   #aside {
@@ -81,7 +92,7 @@
   footer {
     padding: 20px;
     margin-bottom: 20px;
-    margin-top: 100px;
+    margin-top: 50px;
     color: #777;
     background: #ebebeb; 
     height: 80px;
